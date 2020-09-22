@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('img/natural-pattern.png');
+  font-family: 'Roboto', sans-serif;
+}
+
+.text{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header-top{
+  background-image: url('img/natural-header.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  border: 5px solid white;
+}
+
+.header-img-logo{
+  text-align: center;
+}
+
+.header-img-logo h2{
+  color: white
+}
+
+nav{
+  width: 100%;
+  background-color: grey;
+  text-align: center;
+}
+
+ul.classe li{
+  display: inline-block;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 10px;
+}
+
+ul.classe li a{
+  text-decoration: none;
+  color: white;
+}
+
+ul.classe li:hover{
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.row: :after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col{
+  float: left;
+  border-radius: 5%;
+  padding: 10px;
+}
+
+.col-1, .col-3{
+  width: 20%;
+  background-color: white;
+}
+
+.col-2{
+  width: 40%;
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.box{
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.col-3-2, .col-3-3{
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
